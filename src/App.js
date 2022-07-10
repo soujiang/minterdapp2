@@ -277,6 +277,28 @@ function App() {
               </StyledButton>
 
               <StyledButton
+                onClick={(e) => {
+                  window.open("/upload/whitepaper_electhrons.pdf", "_blank");
+                }}
+                style={{
+                  margin: "5px",
+                }}
+              >
+                Free NFT
+              </StyledButton>
+
+              <StyledButton
+                onClick={(e) => {
+                  window.open("/upload/whitepaper_electhrons.pdf", "_blank");
+                }}
+                style={{
+                  margin: "5px",
+                }}
+              >
+                Bot
+              </StyledButton>
+
+              <StyledButton
                 style={{
                   margin: "5px",
                 }}
